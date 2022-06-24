@@ -1,0 +1,22 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: grey;
+  font-size: 1.6rem;
+}
+
+.logo-svg {
+  background: url("../../images/logo.svg");
+  display: inline-block;
+  width: 216px;
+  height: 31px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
