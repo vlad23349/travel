@@ -1,0 +1,10 @@
+.navigation {
+  display: flex;
+  padding-left: 0;
+  line-height: 21px;
+}
+.navigation__link {
+  list-style: none;
+  padding-right: 42px;
+  cursor: pointer;
+}

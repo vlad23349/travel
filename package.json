@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/vlad23349/travel/issues"
   },
-  "homepage": "https://github.com/vlad23349/travel#readme"
+  "homepage": "https://github.com/vlad23349/travel#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
 }
