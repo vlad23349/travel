@@ -8,31 +8,63 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;0,700;1,400&family=Red+Hat+Text:wght@500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@500&display=swap"
       rel="stylesheet"
     />
     <title>Document</title>
   </head>
   <body>
-    <header class="header">
-      <div class="wrapper header__wrapper">
-        <div class="logo">
-          <a class="logo__ref" href="#">
-            <span class="logo__svg"></span>
-          </a>
+    <section class="main-background">
+      <header class="header">
+        <div class="wrapper header__wrapper">
+          <div class="logo">
+            <a class="logo__ref" href="#">
+              <span class="logo__svg"></span>
+            </a>
+          </div>
+          <nav class="header__navigation">
+            <ul class="navigation">
+              <li class="navigation__link">Главная</li>
+              <li class="navigation__link">Меню</li>
+              <li class="navigation__link">О нас</li>
+              <li class="navigation__link">Контакты</li>
+            </ul>
+          </nav>
+          <div class="social">
+            <span class="social__link social__inst"></span>
+            <span class="social__link social__facebook"></span>
+            <span class="social__link social__viber"></span>
+          </div>
         </div>
-        <nav class="header__navigation">
-          <ul class="navigation">
-            <li class="navigation__link">Меню</li>
-            <li class="navigation__link">О нас</li>
-            <li class="navigation__link">Контакты</li>
-            <li class="navigation__link">Travel Stories</li>
-          </ul>
-        </nav>
-        <div class="login">
-          <button class="button login__button">Login</button>
+      </header>
+
+      <section class="promo">
+        <div class="wrapper promo__wrapper">
+          <div class="promo__content">
+            <h1 class="promo__text">
+              Останови время. Насладись отменным вкусом.
+            </h1>
+            <div class="info layout-3-column">
+              <div class="info__block">
+                <span class="info__ico ico-time"></span>
+                <p class="info__text">Время работы с 08:00 до 24:00</p>
+              </div>
+              <div class="info__block">
+                <span class="info__ico ico-location"></span>
+                <p class="info__text">Метро Партизанская</p>
+              </div>
+              <div class="info__block">
+                <span class="info__ico ico-phone"></span>
+                <p class="info__text">+375-25-999-59-53</p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </header>
+      </section>
+    </section>
+
+    <main>
+      <section class="slider"></section>
+    </main>
   </body>
 </html>

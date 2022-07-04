@@ -4,32 +4,37 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
-  font-family: "Red Hat Text";
+  font-size: 1.7rem;
+  font-family: "Alegreya SC", serif;
   color: white;
 }
 
-.logo__svg {
-  background: url("../../images/finalLogo.svg");
-  display: inline-block;
-  width: 435px;
-  height: 90px;
+.main-background {
+  background-color: black;
   background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }
 
-.logo__ref {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-}
-
-.logo__text {
-  font-family: "TT Milks Casual Outline";
-  color: red;
-  font-size: 35px;
-  font-weight: bold;
+h1 {
   margin: 0;
-  margin-left: -10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 72px;
+  text-align: center;
+}
+
+.slider {
+  height: 1000px;
+}
+
+.logo__svg {
+  display: inline-block;
+  background: url("../../images/finalLogo.svg");
+  width: 400px;
+  height: 64px;
+  background-repeat: no-repeat;
 }
 
 .wrapper {
@@ -48,6 +53,9 @@ body {
   padding-right: 42px;
   cursor: pointer;
 }
+.navigation__link:hover {
+  color: #682f2f;
+}
 
 .navigation__link:last-child {
   padding: 0;
@@ -60,8 +68,8 @@ body {
 }
 
 .header {
-  background-color: black;
-  opacity: 70%;
+  background-color: #252525;
+  opacity: 75%;
 }
 
 .button {
@@ -82,6 +90,76 @@ body {
   font-family: "TT Milks Casual Outline";
   src: url(../../fonts/tt-milks-casual-outline.ttf);
   font-weight: normal;
+}
+.promo__text {
+  padding: 45px 0 24px;
+}
+
+.info__block {
+  text-align: center;
+  padding: 0 100px;
+}
+
+.promo__content {
+  height: 500px;
+}
+
+.layout-3-column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.social__inst {
+  background: url("../../images/icons/icon-in.svg");
+  width: 20px;
+  height: 20px;
+}
+
+.social__facebook {
+  background: url("../../images/icons/icon-fb.svg");
+  width: 11px;
+  height: 20px;
+}
+
+.social__viber {
+  background: url("../../images/icons/icon-vb.svg");
+  width: 22px;
+  height: 22px;
+}
+
+.social__link {
+  cursor: pointer;
+  display: inline-block;
+  padding-right: 15px;
+  background-repeat: no-repeat;
+}
+.social__link:hover {
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+.info__ico {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.ico-time {
+  background: url("../../images/icons/ic_watch_later.svg");
+  width: 21px;
+  height: 20px;
+}
+
+.ico-location {
+  background: url("../../images/icons/ic_near_me.svg");
+  width: 18px;
+  height: 18px;
+}
+
+.ico-phone {
+  background: url("../../images/icons/ic_call.svg");
+  width: 18px;
+  height: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */

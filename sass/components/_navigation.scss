@@ -7,6 +7,9 @@
   list-style: none;
   padding-right: 42px;
   cursor: pointer;
+  &:hover {
+    color: #682f2f;
+  }
 }
 .navigation__link:last-child {
   padding: 0;

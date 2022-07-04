@@ -1,0 +1,47 @@
+.social__inst {
+  background: url('../../images/icons/icon-in.svg');
+  width: 20px;
+  height: 20px;
+}
+
+.social__facebook {
+  background: url('../../images/icons/icon-fb.svg');
+  width: 11px;
+  height: 20px;
+}
+
+.social__viber {
+  background: url('../../images/icons/icon-vb.svg');
+  width: 22px;
+  height: 22px;
+}
+.social__link {
+  cursor: pointer;
+  display: inline-block;
+  padding-right: 15px;
+  background-repeat: no-repeat;
+  &:hover {
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg)
+      saturate(600%) contrast(0.8);
+  }
+}
+
+.info__ico {
+  cursor: pointer;
+  display: inline-block;
+}
+.ico-time {
+  background: url('../../images/icons/ic_watch_later.svg');
+  width: 21px;
+  height: 20px;
+}
+.ico-location {
+  background: url('../../images/icons/ic_near_me.svg');
+  width: 18px;
+  height: 18px;
+}
+.ico-phone {
+  background: url('../../images/icons/ic_call.svg');
+  width: 18px;
+  height: 18px;
+}
