@@ -1,11 +1,18 @@
+@import '../node_modules/normalize.css/normalize.css';
+
+//base
 @import 'base/base';
 @import 'base/logo';
-@import 'layouts/wrapper';
-@import 'components/navigation';
-@import 'layouts/header';
 @import 'base/buttons';
-@import '../node_modules/normalize.css/normalize.css';
 @import 'base/fonts';
-@import 'components/promo';
-@import 'layouts/columns';
 @import 'base/icons';
+
+//layouts
+@import 'layouts/wrapper';
+@import 'layouts/header';
+@import 'layouts/columns';
+
+//components
+@import 'components/navigation';
+@import 'components/promo';
+@import 'components/slider';

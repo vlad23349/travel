@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/vlad23349/travel#readme",
   "dependencies": {
+    "jquery": "^3.6.0",
     "normalize.css": "^8.0.1"
   }
 }

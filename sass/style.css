@@ -25,51 +25,12 @@ h1 {
   text-align: center;
 }
 
-.slider {
-  height: 1000px;
-}
-
 .logo__svg {
   display: inline-block;
   background: url("../../images/finalLogo.svg");
   width: 400px;
   height: 64px;
   background-repeat: no-repeat;
-}
-
-.wrapper {
-  max-width: 1200px;
-  margin: auto;
-}
-
-.navigation {
-  display: flex;
-  padding-left: 0;
-  line-height: 21px;
-}
-
-.navigation__link {
-  list-style: none;
-  padding-right: 42px;
-  cursor: pointer;
-}
-.navigation__link:hover {
-  color: #682f2f;
-}
-
-.navigation__link:last-child {
-  padding: 0;
-}
-
-.header__wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header {
-  background-color: #252525;
-  opacity: 75%;
 }
 
 .button {
@@ -91,26 +52,6 @@ h1 {
   src: url(../../fonts/tt-milks-casual-outline.ttf);
   font-weight: normal;
 }
-.promo__text {
-  padding: 45px 0 24px;
-}
-
-.info__block {
-  text-align: center;
-  padding: 0 100px;
-}
-
-.promo__content {
-  height: 500px;
-}
-
-.layout-3-column {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
 .social__inst {
   background: url("../../images/icons/icon-in.svg");
   width: 20px;
@@ -160,6 +101,75 @@ h1 {
   background: url("../../images/icons/ic_call.svg");
   width: 18px;
   height: 18px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: #252525;
+  opacity: 75%;
+}
+
+.layout-3-column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  padding-left: 0;
+  line-height: 21px;
+}
+
+.navigation__link {
+  list-style: none;
+  padding-right: 42px;
+  cursor: pointer;
+}
+.navigation__link:hover {
+  color: #ac4042;
+}
+
+.navigation__link:last-child {
+  padding: 0;
+}
+
+.promo__text {
+  padding: 45px 0 50px;
+}
+
+.info__block {
+  text-align: center;
+  padding: 0 100px;
+}
+
+.promo__content {
+  height: 500px;
+}
+
+.slider__container {
+  width: 1200px;
+  overflow: hidden;
+}
+
+.slider__track {
+  display: flex;
+  transition: 1s ease-in-out;
+}
+
+.slider__buttons {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
