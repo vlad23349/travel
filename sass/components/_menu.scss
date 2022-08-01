@@ -1,0 +1,43 @@
+.menu__block {
+  background-color: #252525;
+
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.menu__content {
+  padding: 20px;
+}
+.menu__image {
+  border-radius: 10px 10px 0px 0px;
+}
+.menu__name {
+  font-family: Alegreya;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px 0px 20px;
+}
+
+.menu__description {
+  margin: 0 0 23px;
+  color: #b3b3b3;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.menu__price {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ac4042;
+  padding-right: 172px;
+  vertical-align: top;
+}
