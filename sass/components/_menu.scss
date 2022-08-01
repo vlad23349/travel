@@ -31,18 +31,13 @@
   letter-spacing: 0em;
   text-align: left;
 }
-.menu__button {
-  position: absolute;
-  left: 19%;
-  right: 18%;
-  top: 31.25%;
-  bottom: 31.25%;
-
-  font-family: 'Montserrat';
+.menu__price {
+  font-family: 'Open Sans';
   font-style: normal;
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 12px;
-  text-align: center;
-  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ac4042;
+  padding-right: 172px;
+  vertical-align: top;
 }
