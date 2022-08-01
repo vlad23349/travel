@@ -6,15 +6,22 @@ body {
   font-size: 1.7rem;
   font-family: 'Alegreya SC', serif;
   color: white;
+  background-color: #1a1a1a;
 }
 
 .main-background {
   background-color: black;
-  // background: url('../../images/main-pic5.jpg');
+  background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url('../../images/main-pic5.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
 }
+
 h1 {
   margin: 0;
   font-style: normal;

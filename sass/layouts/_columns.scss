@@ -1,6 +1,12 @@
-.layout-3-column {
+.layout-x-column {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+.layout-3-column {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
